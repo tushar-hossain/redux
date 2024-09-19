@@ -1,0 +1,17 @@
+#root {
+  text-align: center;
+}
+section {
+  display: grid;
+  gap: 1rem;
+}
+
+article {
+  background-color: #66f;
+}
+
+@media screen and (min-width: 600px) {
+  section {
+    grid-template-columns: repeat(3, minmax(0px, 1fr));
+  }
+}
